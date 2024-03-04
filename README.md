@@ -9,7 +9,7 @@ PARSER FOR OLX.KZ
    
 -----------------------------------------------------------------------
 
-This parser first of all gather offer's ids and offer's url. 
+This parser first of all gather offer's ids and offer's url. \n
 After gather information, parser use Selenium in headless mode to get username and location. 
 And last part of parsing work, it use OLX API to get phone number.
 For this process parser use requests library, ZenRows API and OLX Authorization Header, that is Bearer Token.

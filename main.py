@@ -3,7 +3,6 @@ import os
 
 from ids_gather import gather_data
 from crawler import Crawler
-from telegram_connect import write_token, read_token
 
 
 if __name__ == '__main__':

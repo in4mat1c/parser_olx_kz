@@ -127,7 +127,7 @@ class Crawler:
 
             try:
                 name, city = self.get_user_data(offers[offer_index]['url'])
-                phone = phone_data['data']['phones'][0]
+                phone = (phone_data['data']['phones'][0]).replace(' ', '').replace('+', '')
 
                 # Write Data To CSV FILE
                 with open(f'OLX_DATA/{self.current_category}_{self.current_city}.csv', 'a', encoding='utf-8',
